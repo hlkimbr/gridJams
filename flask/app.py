@@ -32,4 +32,4 @@ def jam():
     return render_template('jam.html',**locals())
 
 if __name__ == "__main__":
-    app.run(debug = True)
+    app.run(host ="198.21.247.207")
