@@ -1,0 +1,14 @@
+// *** Git in a nutshell *** \\
+   Trying to download the repo:
+$ git clone name_of_repo
+
+   When you update code and want to push it to the
+      repository:
+$ git status //lets you see the changes you have made     
+$ git pull
+$ git add .
+$ git commit -m 'your commit message'
+$ git push
+*** note *** This will push directly to the master
+branch. If there are merge conflicts in the code, you
+will have to resolve them. Ask Courtney if confused
