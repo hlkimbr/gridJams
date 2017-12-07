@@ -37,26 +37,26 @@ def jam():
     sound = request.form.get('sound')
     print("stuff happening")
     if sound == 'Theme1':
-        button1 = "static/sounds/aaahMadeon.mp3"
-        button2 = "static/sounds/clap.mp3"
-        button3 = "static/sounds/freezeIntroAudio.mp3"
-        button4 = "static/sounds/mario.mp3"
-        button5 = "static/sounds/midifreeze.mp3"
-        button6 = "static/sounds/over.mp3"
+        button1 = "static/sounds/3setsOfTracks/set1/set1track1.mp3"
+        button2 = "static/sounds/3setsOfTracks/set1/set1track2.mp3"
+        button3 = "static/sounds/3setsOfTracks/set1/set1track3.mp3"
+        button4 = "static/sounds/3setsOfTracks/set1/set1track4.mp3"
+        button5 = "static/sounds/3setsOfTracks/set1/set1track5.mp3"
+        button6 = "static/sounds/3setsOfTracks/set1/set1track6.mp3"
     elif sound == 'Theme2':
-        button1 = "static/sounds/Boomerang.mp3"
-        button2 = "static/sounds/clap.mp3"
-        button3 = "static/sounds/over.mp3"
-        button4 = "static/sounds/pianoBreak.mp3"
-        button5 = "static/sounds/slice44.mp3"
-        button6 = "static/sounds/aaahMadeon.mp3"
+        button1 = "static/sounds/3setsOfTracks/set2/set2track1.mp3"
+        button2 = "static/sounds/3setsOfTracks/set2/set2track2.mp3"
+        button3 = "static/sounds/3setsOfTracks/set2/set2track3.mp3"
+        button4 = "static/sounds/3setsOfTracks/set2/set2track4.mp3"
+        button5 = "static/sounds/3setsOfTracks/set2/set2track5.mp3"
+        button6 = "static/sounds/3setsOfTracks/set2/set2track6.mp3"
     elif sound == 'Theme3':
-        button1 = "static/sounds/midifreeze.mp3"
-        button2 = "static/sounds/marbles.mp3"
-        button3 = "static/sounds/slice45.mp3"
-        button4 = "static/sounds/slice210.mp3"
-        button5 = "static/sounds/aaahMadeon.mp3"
-        button6 = "static/sounds/over.mp3"
+        button1 = "static/sounds/3setsOfTracks/set3/set3track1.mp3"
+        button2 = "static/sounds/3setsOfTracks/set3/set3track2.mp3"
+        button3 = "static/sounds/3setsOfTracks/set3/set3track3.mp3"
+        button4 = "static/sounds/3setsOfTracks/set3/set3track4.mp3"
+        button5 = "static/sounds/3setsOfTracks/set3/set3track5.mp3"
+        button6 = "static/sounds/3setsOfTracks/set3/set3track6.mp3"
 
     return render_template('jam.html',**locals())
 
@@ -79,4 +79,4 @@ def buttons():
 
 if __name__ == "__main__":
     _thread.start_new_thread(buttons,())
-    flask_app.run(host='198.21.245.75')
+    flask_app.run(host='198.21.240.188')
